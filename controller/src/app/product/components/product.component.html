@@ -1,0 +1,11 @@
+<div><h1>lista productos</h1></div>
+
+<div class="col-md-8 order-md-1">
+        <div class="col-lg-4" *ngFor="let product of listProducts">
+                <h2>{{product.name}}</h2>
+                <p>{{product.detail}}</p>
+                <p>$ {{product.price}}</p>
+                <p><a class="btn btn-primary" href="#" role="button">Agregar</a></p>
+        </div>
+</div>
+

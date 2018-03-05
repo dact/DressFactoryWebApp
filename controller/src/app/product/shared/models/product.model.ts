@@ -1,9 +1,9 @@
 export class Product{
-    public ProductId: number;
-    public Name: string;
-    public Img: string;
-    public Price: number;
-    public Detail: string;
-    public CompanyId: number;
-    public CategoryId: number;
+    public productId: number;
+    public name: string;
+    public img: string;
+    public price: number;
+    public detail: string;
+    public companyId: number;
+    public categoryId: number;
 }

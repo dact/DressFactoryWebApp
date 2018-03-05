@@ -8,9 +8,10 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
+var car_component_1 = require('./product/components/car.component');
 var core_1 = require('@angular/core');
-var estudiantes_component_1 = require('./estudiantes.component');
 var company_component_1 = require('./company/components/company.component');
+var product_component_1 = require('./product/components/product.component');
 var AppComponent = (function () {
     function AppComponent() {
     }
@@ -18,7 +19,7 @@ var AppComponent = (function () {
         core_1.Component({
             selector: 'my-app',
             templateUrl: './src/app/app.component.html',
-            directives: [estudiantes_component_1.EstudiantesComponent, company_component_1.CompanyComponent]
+            directives: [product_component_1.ProductComponent, company_component_1.CompanyComponent, car_component_1.CarComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], AppComponent);
