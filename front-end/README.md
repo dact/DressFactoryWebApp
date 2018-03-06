@@ -4,14 +4,17 @@ front-end: mockup que simula como se ve la aplicación contruido en html5,css3 y
 
 pagina inicio: index.html
 <p align="center">
-  <img src="img/index.png" width="350"/>
-  </p>
-![picture](https://github.com/dact/DressFactoryWebApp/tree/develop/front-end/img/index.png)
+  <img src="img/index.png" width="600"/>
+</p>
 
 pagina catalogo: tiene un catalo de productos y el boton solicitar que lleva al formulario de pedido
 
 pagina catalogo
-![picture](https://github.com/dact/DressFactoryWebApp/tree/develop/front-end/img/catalog.png)
+<p align="center">
+  <img src="img/catalog.png" width="600"/>
+</p>
 
 formulario de pedido
-![picture](https://github.com/dact/DressFactoryWebApp/tree/develop/front-end/img/form.png)
+<p align="center">
+  <img src="img/form.png" width="600"/>
+</p>
