@@ -12,17 +12,17 @@
     <title>Dress Factory Web App</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="../dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <link href="../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="starter-template.css" rel="stylesheet">
 
     <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
-    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
-    <script src="../assets/js/ie-emulation-modes-warning.js"></script>
+    <!--[if lt IE 9]><script src="assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="assets/js/ie-emulation-modes-warning.js"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -47,7 +47,7 @@
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.html">Inicio</a></li>
-            <li class="active"><a href="/catalog.html">Catalogo</a></li>
+            <li class="active"><a href="catalog.html">Catalogo</a></li>
           </ul>
         </div><!--/.nav-collapse -->
       </div>
@@ -57,50 +57,41 @@
 
       <div class="starter-template">
             <div class="row">
-                    
-                    <div class="col-md-8 order-md-1">
-                      <h4 class="mb-3">Informacion Personal</h4>
-                      <form class="needs-validation" novalidate>
+                <div class="col-md-8 order-md-1">
 
-                        
-                            <div class="mb-3">
-                                    <label for="Nombre">Nombre</label>
-                                    <input type="text" class="form-control" id="nombre" placeholder="digite su nombre">
+                        <div class="col-lg-4">
+                                <h2>Nombre</h2>
+                                <p class="text-danger">Detalle</p>
+                                <p>Precio:$$$$$$$</p>
+                                <p><a class="btn btn-primary" href="#" role="button">Agregar</a></p>
+                              </div>
+                              <div class="col-lg-4">
+                                    <h2>Nombre</h2>
+                                    <p class="text-danger">Detalle</p>
+                                    <p>Precio:$$$$$$$</p>
+                                    <p><a class="btn btn-primary" href="#" role="button">Agregar</a></p>
                                   </div>
-
-                            <div class="row span-6">
-
-                                  <div class="col-md-4">
-                                        <label for="email">Tipo Documento</label>
-                                        <select class="form-control">
-                                            <option value="CC">CC</option>
-                                            <option value="NIT">NIT</option>
-                                            <option value="CE">CE</option>
-                                            <option value="NUIP">NUIP</option>
-                                          </select>
+                                  <div class="col-lg-4">
+                                        <h2>Nombre</h2>
+                                        <p class="text-danger">Detalle</p>
+                                        <p>Precio:$$$$$$$</p>
+                                        <p><a class="btn btn-primary" href="#" role="button">Agregar</a></p>
                                       </div>
-
-                                      <div class="col-md-8">
-                                            <label for="email">Numero de documento</label>
-                                            <input type="email" class="form-control" id="documento" placeholder="digite su numero documento">
+                                      <div class="col-lg-4">
+                                            <h2>Nombre</h2>
+                                            <p class="text-danger">Detalle</p>
+                                            <p>Precio:$$$$$$$</p>
+                                            <p><a class="btn btn-primary" href="#" role="button">Agregar</a></p>
                                           </div>
+                                          <div class="col-lg-4">
+                                                <h2>Nombre</h2>
+                                                <p class="text-danger">Detalle</p>
+                                                <p>Precio:$$$$$$$</p>
+                                                <p><a class="btn btn-primary" href="#" role="button">Agregar</a></p>
+                                              </div>
 
-                                        </div>
 
-                        <div class="mb-3">
-                          <label for="email">Fecha y hora para la entraga del pedido</label>
-                          <input type="datetime-local" class="form-control" id="email" placeholder="digite la fecha y hora para la entrega">
-                        </div>
-            
-                        <div class="mb-3">
-                          <label for="address">Direccion</label>
-                          <input type="text" class="form-control" id="address" placeholder="direccion" required>
-                        </div>
-      
-            
-                        <button class="btn btn-primary btn-lg btn-block" type="submit">Pedir a Domicilio</button>
-                      </form>
-                    </div>
+                </div>
 
                     <!--list products-->
 
@@ -131,19 +122,19 @@
                                 </div>
                                 <span class="text-muted">$5</span>
                               </li>
-                              <li class="list-group-item d-flex justify-content-between bg-light">
-                                <div class="text-success">
-                                  <h6 class="my-0">Promo code</h6>
-                                  <small>EXAMPLECODE</small>
-                                </div>
-                                <span class="text-success">-$5</span>
-                              </li>
                               <li class="list-group-item d-flex justify-content-between">
                                 <span>Total (USD)</span>
                                 <strong>$20</strong>
                               </li>
                             </ul>
-                
+                  
+                            <form class="card p-2" action="form.html">
+                              <div class="input-group">
+                                <div class="input-group-append">
+                                  <button type="submit"  class="btn btn-secondary">Solicitar</button>
+                                </div>
+                              </div>
+                            </form>
 
 
                           </div>
@@ -167,9 +158,9 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
-    <script src="../dist/js/bootstrap.min.js"></script>
+    <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="dist/js/bootstrap.min.js"></script>
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
   </body>
 </html>
