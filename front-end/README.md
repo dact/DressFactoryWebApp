@@ -4,7 +4,7 @@ front-end: mockup que simula como se ve la aplicación contruido en html5,css3 y
 
 pagina inicio: index.html
 <p align="center">
-  <img src="https://github.com/dact/DressFactoryWebApp/tree/develop/front-end/img/index.png" width="350"/>
+  <img src="img/index.png" width="350"/>
   </p>
 ![picture](https://github.com/dact/DressFactoryWebApp/tree/develop/front-end/img/index.png)
 
